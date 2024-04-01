@@ -222,8 +222,8 @@
 </template>
 
 <script>
-import SelectList from '@/components/eric/SelectList.vue'
-import BackendFunctions from '@/components/eric/BackendFunctions.vue'
+import SelectList from '@/components/admin/SelectList.vue'
+import BackendFunctions from '@/components/admin/BackendFunctions.vue'
 export default {
   components: {
     BackendFunctions,

@@ -27,7 +27,8 @@ export default {
       this.$swal({
         icon: 'success',
         title: '成功登出',
-        text: '導覽至首頁'
+        text: '導覽至首頁',
+        timer: 1000
       }).then(() => {
         window.location.href = import.meta.env.VITE_BASE
       });

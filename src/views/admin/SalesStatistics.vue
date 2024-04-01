@@ -71,13 +71,13 @@
 </template>
 
 <script>
-import BackendFunctions from '@/components/eric/BackendFunctions.vue';
-import MyLine from '@/components/eric/charts/MyLine.vue';
-import MyBar from '@/components/eric/charts/MyBar.vue';
-import MyPie from '@/components/eric/charts/MyPie.vue';
-import MyRadia from '@/components/eric/charts/MyRadia.vue';
-import MyRadiasm from '@/components/eric/charts/MyRadiasm.vue';
-import MyHat from '@/components/eric/charts/MyHat.vue';
+import BackendFunctions from '@/components/admin/BackendFunctions.vue';
+import MyLine from '@/components/admin/charts/MyLine.vue';
+import MyBar from '@/components/admin/charts/MyBar.vue';
+import MyPie from '@/components/admin/charts/MyPie.vue';
+import MyRadia from '@/components/admin/charts/MyRadia.vue';
+import MyRadiasm from '@/components/admin/charts/MyRadiasm.vue';
+import MyHat from '@/components/admin/charts/MyHat.vue';
 export default {
   components: {
     BackendFunctions,
