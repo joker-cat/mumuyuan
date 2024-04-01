@@ -42,7 +42,7 @@ setLocale('zh_TW')
 //Vue loading
 import { LoadingPlugin } from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/css/index.css'
-import LoaderComponent from '@/components/ching/LoadingComponent.vue'
+import LoaderComponent from '@/components/global/LoadingComponent.vue'
 
 //Vue sweetalert2
 import VueSweetalert2 from 'vue-sweetalert2'
