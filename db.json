@@ -6,9 +6,42 @@
       "copyPassword": "123456",
       "name": "joker",
       "phone": "0933333333",
-      "coupon": [],
+      "coupon": [
+        {
+          "name": "折40塊",
+          "calc": "-40",
+          "image": "money",
+          "description": "僅限線上訂餐使用",
+          "expiryDate": "2024/4/8",
+          "id": 7
+        },
+        {
+          "name": "花椰菜優惠券",
+          "calc": "-1",
+          "image": "34",
+          "description": "僅限現場點餐使用",
+          "expiryDate": "2024/4/8",
+          "id": 5
+        },
+        {
+          "name": "折20塊",
+          "calc": "-20",
+          "image": "money",
+          "description": "僅限線上訂餐使用",
+          "expiryDate": "2024/4/8",
+          "id": 2
+        },
+        {
+          "name": "折30塊",
+          "calc": "-30",
+          "image": "money",
+          "description": "僅限線上訂餐使用",
+          "expiryDate": "2024/4/8",
+          "id": 6
+        }
+      ],
       "identity": "user",
-      "point": 4158,
+      "point": 3760,
       "id": 1
     },
     {
@@ -106,6 +139,17 @@
         }
       ],
       "id": 6
+    },
+    {
+      "email": "jocker.ss.cat@gmail.com",
+      "password": "$2a$10$elMcNh0/tPeQQUf42EJ0aup6Er6XZOfHyDY5bQI/pbjMfmIbNGI0K",
+      "copyPassword": "123456",
+      "name": "joker",
+      "phone": "0900123123",
+      "identity": "user",
+      "point": 4,
+      "coupon": [],
+      "id": 7
     }
   ],
   "categories": [
@@ -1395,6 +1439,42 @@
       "orderid": "202404011828",
       "score": "",
       "id": 22
+    },
+    {
+      "isMember": true,
+      "name": "joker",
+      "phone": "0933333333",
+      "mail": "joker@gmail.com",
+      "day": "2024-04-01",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 3
+        },
+        {
+          "productName": "鴨肉串",
+          "image": "10.jpg",
+          "price": 39,
+          "quantity": 4
+        }
+      ],
+      "address": "自取",
+      "price": 261,
+      "userId": "1",
+      "status": 1,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "18:44",
+      "flavor": "2",
+      "spicy": "2",
+      "orderid": "202404011844",
+      "score": "",
+      "id": 23
     }
   ],
   "news": [
@@ -1494,6 +1574,16 @@
       "time": "11:00",
       "isCheck": false,
       "id": 5
+    },
+    {
+      "name": "tttt",
+      "personCount": 10,
+      "phone": "0900000000",
+      "mail": "joker@gmail.com",
+      "day": "2024/04/03",
+      "time": "12:00",
+      "isCheck": true,
+      "id": 6
     }
   ],
   "periods": [
@@ -1581,7 +1671,7 @@
       "name": "帝王蟹味棒",
       "calc": "-1",
       "image": "33",
-      "point": 150,
+      "point": "0",
       "isLook": false,
       "description": "僅限現場點餐使用",
       "id": 8
