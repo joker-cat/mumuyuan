@@ -47,7 +47,7 @@
 import { docCookies } from '@/assets/cookie'
 import productsStore from '@/stores/productsStore.js'
 import cartStore from '@/stores/cartStore.js'
-import CategoryComponent from '@/components/ching/CategoryComponent.vue'
+import CategoryComponent from '@/components/onlineOrder/CategoryComponent.vue'
 import { mapActions, mapState } from 'pinia'
 
 export default {

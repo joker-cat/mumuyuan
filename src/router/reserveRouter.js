@@ -1,4 +1,4 @@
-import ReserveView from '@/views/chia/ReserveView.vue'
+import ReserveView from '@/views/frontend/ReserveView.vue'
 
 export default [
   {

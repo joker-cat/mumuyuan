@@ -1,7 +1,7 @@
-import NewsPage from '@/views/ching/NewsPage.vue'
-import MemberView from '@/views/chia/MemberView.vue'
-import OnlineOrder from '@/views/ching/OnlineOrder.vue'
-import CartPage from '@/views/ching/CartPage.vue'
+import NewsPage from '@/views/frontend/NewsPage.vue'
+import MemberView from '@/views/frontend/MemberView.vue'
+import OnlineOrder from '@/views/frontend/OnlineOrder.vue'
+import CartPage from '@/views/frontend/CartPage.vue'
 
 export default [
   { path: '/news/:id', component: NewsPage },
@@ -9,10 +9,10 @@ export default [
     path: '/member',
     component: MemberView,
     children: [
-      { path: '', component: () => import('@/components/chia/MemberCenter.vue') },
-      { path: 'orderlog', component: () => import('@/components/chia/MemberOrderLog.vue') },
-      { path: 'discount', component: () => import('@/components/chia/MemberDiscount.vue') },
-      { path: 'exchange', component: () => import('@/components/chia/MemberExchange.vue') }
+      { path: '', component: () => import('@/components/member/MemberCenter.vue') },
+      { path: 'orderlog', component: () => import('@/components/member/MemberOrderLog.vue') },
+      { path: 'discount', component: () => import('@/components/member/MemberDiscount.vue') },
+      { path: 'exchange', component: () => import('@/components/member/MemberExchange.vue') }
     ]
   },
   { path: '/onlineOrder', component: OnlineOrder },

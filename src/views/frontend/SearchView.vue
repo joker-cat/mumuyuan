@@ -1,6 +1,6 @@
 <script>
-import SearchOrder from "@/components/chia/SearchOrder.vue";
-import SearchSeat from "@/components/chia/SearchSeat.vue";
+import SearchOrder from "@/components/search/SearchOrder.vue";
+import SearchSeat from "@/components/search/SearchSeat.vue";
 export default {
   data() {
     return {

@@ -17,12 +17,12 @@
   </div>
 </template>
 <script>
-import IndexSlogan from '@/components/ching/IndexSlogan.vue'
-import IndexNews from '@/components/ching/IndexNews.vue'
-import IndexRating from '@/components/ching/IndexRating.vue'
-import IndexFeature from '@/components/ching/IndexFeature.vue'
-import IndexFaq from '@/components/ching/IndexFAQ.vue'
-import IndexAddress from '@/components/ching/IndexAddress.vue'
+import IndexSlogan from '@/components/indexPage/IndexSlogan.vue'
+import IndexNews from '@/components/indexPage/IndexNews.vue'
+import IndexRating from '@/components/indexPage/IndexRating.vue'
+import IndexFeature from '@/components/indexPage/IndexFeature.vue'
+import IndexFaq from '@/components/indexPage/IndexFAQ.vue'
+import IndexAddress from '@/components/indexPage/IndexAddress.vue'
 
 export default {
   data() {

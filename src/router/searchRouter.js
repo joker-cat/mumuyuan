@@ -1,4 +1,4 @@
-import SearchView from '@/views/chia/SearchView.vue'
+import SearchView from '@/views/frontend/SearchView.vue'
 
 export default [
   {

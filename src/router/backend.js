@@ -1,12 +1,12 @@
 import { defineAsyncComponent } from 'vue'
 
-const OrderManage = defineAsyncComponent(() => import('@/views/eric/OrderManage.vue'))
-const MemberManage = defineAsyncComponent(() => import('@/views/eric/MemberManage.vue'))
-const SalesStatistics = defineAsyncComponent(() => import('@/views/eric/SalesStatistics.vue'))
-const ProductManage = defineAsyncComponent(() => import('@/views/eric/ProductManage.vue'))
-const BookingManage = defineAsyncComponent(() => import('@/views/eric/BookingManage.vue'))
-const DiscountManage = defineAsyncComponent(() => import('@/views/eric/DiscountManage.vue'))
-const JourneyManage = defineAsyncComponent(() => import('@/views/eric/JourneyManage.vue'))
+const OrderManage = defineAsyncComponent(() => import('@/views/admin/OrderManage.vue'))
+const MemberManage = defineAsyncComponent(() => import('@/views/admin/MemberManage.vue'))
+const SalesStatistics = defineAsyncComponent(() => import('@/views/admin/SalesStatistics.vue'))
+const ProductManage = defineAsyncComponent(() => import('@/views/admin/ProductManage.vue'))
+const BookingManage = defineAsyncComponent(() => import('@/views/admin/BookingManage.vue'))
+const DiscountManage = defineAsyncComponent(() => import('@/views/admin/DiscountManage.vue'))
+const JourneyManage = defineAsyncComponent(() => import('@/views/admin/JourneyManage.vue'))
 
 export default [
   { path: '/order', component: OrderManage },

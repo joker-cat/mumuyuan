@@ -11,8 +11,8 @@ import memberRouter from './memberRouter'
 import backend from './backend'
 
 //主頁
-import IndexPage from '/src/views/ching/IndexPage.vue'
-import NotFound from '/src/views/ching/NotFound.vue'
+import IndexPage from '/src/views/frontend/IndexPage.vue'
+import NotFound from '/src/views/frontend/NotFound.vue'
 
 const routes = [
   { path: '/', name: 'home', component: IndexPage },
