@@ -1,0 +1,1703 @@
+{
+  "users": [
+    {
+      "email": "joker@gmail.com",
+      "password": "$2a$10$CUQX5p5JOf2X/zbHLONo4OEBXF7b4HHdBVDV8IqJpvoYKZkOe5zsq",
+      "copyPassword": "123456",
+      "name": "joker",
+      "phone": "0933333333",
+      "coupon": [],
+      "identity": "user",
+      "point": 4157,
+      "id": 1
+    },
+    {
+      "email": "amin@gmail.com",
+      "password": "$2a$10$sntD.IJ9L2hqi6gLNlxC9.LteqNoQumFbB58pG6d6cZ6Cdiwb6lO2",
+      "copyPassword": "123456",
+      "name": "阿明",
+      "phone": "0212345678",
+      "identity": "user",
+      "point": 3000,
+      "coupon": [],
+      "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$pbkX8jgDZHTDNP3YMgTKlelUwrm9dEAXAv8hHnZXoGrAgz1gKL/Uq",
+      "copyPassword": "123456",
+      "name": "admin",
+      "phone": "0911111111",
+      "identity": "admin",
+      "coupon": [],
+      "point": 1030,
+      "id": 3
+    },
+    {
+      "email": "eirc@gmail.com",
+      "password": "123456",
+      "copyPassword": "123456",
+      "name": "eric",
+      "phone": "095565687",
+      "identity": "user",
+      "coupon": [],
+      "point": 1000,
+      "id": 4
+    },
+    {
+      "email": "26416387.re@gmail.com",
+      "password": "$2a$10$1c4uv2v3m6L028PAHH1dzOp50HnRfYgpjKu2avSyXMrkc.hOM.cf2",
+      "copyPassword": "123456",
+      "name": "eric",
+      "phone": "0911111111",
+      "identity": "user",
+      "point": 0,
+      "coupon": [],
+      "id": 5
+    },
+    {
+      "email": "suger5769@gmail.com",
+      "password": "$2a$10$zWm5gmGFhd2q5qeGexgHk.MtE3J5ZunJ1CAabt5/7wYaRmD6vdSj2",
+      "copyPassword": "123456",
+      "name": "Ching",
+      "phone": "0912345678",
+      "identity": "user",
+      "point": 92430,
+      "coupon": [
+        {
+          "name": "青椒優惠券",
+          "calc": "-1",
+          "image": "35",
+          "description": "僅限現場點餐使用",
+          "expiryDate": "2024/3/15",
+          "id": 1
+        },
+        {
+          "name": "帝王蟹味棒優惠券",
+          "calc": "-1",
+          "image": "33",
+          "description": "僅限現場點餐使用",
+          "expiryDate": "2024/3/27",
+          "id": 8
+        },
+        {
+          "name": "折20塊",
+          "calc": "-20",
+          "image": "money",
+          "description": "僅限線上訂餐使用",
+          "expiryDate": "2024/3/31",
+          "id": 2
+        },
+        {
+          "name": "折20塊",
+          "calc": "-20",
+          "image": "money",
+          "description": "僅限線上訂餐使用",
+          "expiryDate": "2024/4/7",
+          "id": 2
+        },
+        {
+          "name": "花椰菜優惠券",
+          "calc": "-1",
+          "image": "34",
+          "description": "僅限現場點餐使用",
+          "expiryDate": "2024/4/15",
+          "id": 5
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "固定套餐",
+      "eng": "combo"
+    },
+    {
+      "id": 2,
+      "title": "秘捲",
+      "eng": "secret"
+    },
+    {
+      "id": 3,
+      "title": "肉品",
+      "eng": "meat"
+    },
+    {
+      "id": 4,
+      "title": "海鮮",
+      "eng": "seafood"
+    },
+    {
+      "id": 5,
+      "title": "酒食",
+      "eng": "wine"
+    },
+    {
+      "id": 6,
+      "title": "蔬菜",
+      "eng": "vegetable"
+    },
+    {
+      "id": 7,
+      "title": "經典",
+      "eng": "classic"
+    }
+  ],
+  "products": [
+    {
+      "productName": "套餐",
+      "category": 1,
+      "image": "01.jpg",
+      "count": 10,
+      "price": 52,
+      "description": "清爽的口感。",
+      "isLook": false,
+      "id": 0
+    },
+    {
+      "productName": "玉米筍",
+      "category": 6,
+      "image": "01.jpg",
+      "count": 10,
+      "price": 52,
+      "description": "清爽的口感。",
+      "isLook": false,
+      "id": 1
+    },
+    {
+      "productName": "豬五花蔥捲",
+      "category": 2,
+      "image": "02.jpg",
+      "count": 15,
+      "price": 58,
+      "description": "美味五花豬與香蔥完美捲合，炭烤後散發香氣，串烤風味，口感豐富。",
+      "isLook": false,
+      "id": 2
+    },
+    {
+      "productName": "鯛魚下巴",
+      "category": 4,
+      "image": "03.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "肥美多汁，入口脆嫩香。",
+      "isLook": false,
+      "id": 3
+    },
+    {
+      "productName": "梅花豬",
+      "category": 3,
+      "image": "04.jpg",
+      "count": 10,
+      "price": 56,
+      "description": "梅花豬串燒，細膩肉質，香氣撲鼻。",
+      "isLook": false,
+      "id": 4
+    },
+    {
+      "productName": "豬五花",
+      "category": 3,
+      "image": "05.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "豬五花串燒，脂肪分佈均勻，香氣宜人。",
+      "isLook": false,
+      "id": 5
+    },
+    {
+      "productName": "牛五花",
+      "category": 3,
+      "image": "06.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "頂級牛五花串燒，油花豐富，香氣誘人",
+      "isLook": true,
+      "id": 6
+    },
+    {
+      "productName": "牛小排",
+      "category": 3,
+      "image": "07.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "鮮嫩牛小排，厚切串燒。",
+      "isLook": true,
+      "id": 7
+    },
+    {
+      "productName": "剝皮辣椒豬捲",
+      "category": 2,
+      "image": "08.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "剝皮辣椒辣甜脆，搭豬五花香醇油脂，串烤完美組合，美味滿溢解膩。",
+      "isLook": false,
+      "id": 8
+    },
+    {
+      "productName": "番茄牛肉捲",
+      "category": 2,
+      "image": "09.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "新鮮番茄牛肉捲，口感多汁香甜。",
+      "isLook": false,
+      "id": 9
+    },
+    {
+      "productName": "鴨肉串",
+      "category": 3,
+      "image": "10.jpg",
+      "count": 10,
+      "price": 39,
+      "description": "鴨肉串燒，外脆內嫩，帶有獨特鴨香。",
+      "isLook": false,
+      "id": 10
+    },
+    {
+      "productName": "醬烤雞心",
+      "category": 5,
+      "image": "11.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "嚴選雞心，搭配獨特醬汁烤製，口感鮮嫩多汁，香氣四溢，美味迷人。",
+      "isLook": false,
+      "id": 11
+    },
+    {
+      "productName": "醬烤雞胗",
+      "category": 5,
+      "image": "12.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "嫩滑雞胗搭配特製醬汁烤製，口感鮮美，風味獨特，令人愛不釋手。",
+      "isLook": true,
+      "id": 12
+    },
+    {
+      "productName": "干貝牛肉捲",
+      "category": 2,
+      "image": "13.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "鮮嫩干貝與精選牛肉完美卷裹，獨特風味，串烤中的極致美味。",
+      "isLook": true,
+      "id": 13
+    },
+    {
+      "productName": "鳳梨蝦球",
+      "category": 4,
+      "image": "14.jpg",
+      "count": 10,
+      "price": 49,
+      "description": "鳳梨香氣搭配鮮嫩蝦球，串烤中的甜蜜風味。",
+      "isLook": true,
+      "id": 14
+    },
+    {
+      "productName": "櫛瓜",
+      "category": 6,
+      "image": "15.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "受歡迎的櫛瓜，清新脆爽，口感令人愉悅，美味無比",
+      "isLook": true,
+      "id": 15
+    },
+    {
+      "productName": "椒鹽肥腸",
+      "category": 5,
+      "image": "16.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "肥腸酥脆，搭配椒鹽調味，美味中帶有獨特風味，令人回味無窮。",
+      "isLook": true,
+      "id": 16
+    },
+    {
+      "productName": "鹽烤白蝦",
+      "category": 4,
+      "image": "17.jpg",
+      "count": 10,
+      "price": 79,
+      "description": "蝦肉鮮嫩，鹽烤風味簡約鮮美。",
+      "isLook": true,
+      "id": 17
+    },
+    {
+      "productName": "雞肉串",
+      "category": 3,
+      "image": "18.jpg",
+      "count": 10,
+      "price": 39,
+      "description": "串烤店經典之選，香烤雞肉串，肉質鮮嫩，串燒炭火風味，絕對令人愛不釋手。",
+      "isLook": true,
+      "id": 18
+    },
+    {
+      "productName": "黃金雞翅",
+      "category": 5,
+      "image": "19.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "外皮香脆如金，內裡多汁嫩滑，烤製至完美黃金色澤，美味令人難以抗拒。",
+      "isLook": false,
+      "id": 19
+    },
+    {
+      "productName": "深海章魚足",
+      "category": 4,
+      "image": "20.jpg",
+      "count": 10,
+      "price": 89,
+      "description": "彈牙的食感，散發深海鮮美。",
+      "isLook": true,
+      "id": 20
+    },
+    {
+      "productName": "茄子",
+      "category": 6,
+      "image": "21.jpg",
+      "count": 10,
+      "price": 25,
+      "description": "外酥內嫩，口感豐富，串烤中的濃郁風味。",
+      "isLook": true,
+      "id": 21
+    },
+    {
+      "productName": "杏鮑菇",
+      "category": 6,
+      "image": "22.jpg",
+      "count": 10,
+      "price": 30,
+      "description": "口感層次豐富。",
+      "isLook": true,
+      "id": 22
+    },
+    {
+      "productName": "四季豆",
+      "category": 6,
+      "image": "23.jpg",
+      "count": 10,
+      "price": 30,
+      "description": "有淡淡甜味，串烤中的清新口感。",
+      "isLook": true,
+      "id": 23
+    },
+    {
+      "productName": "筊白筍",
+      "category": 6,
+      "image": "24.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "有淡淡甜味，串烤中的清新口感。",
+      "isLook": true,
+      "id": 24
+    },
+    {
+      "productName": "洋蔥",
+      "category": 6,
+      "image": "25.jpg",
+      "count": 10,
+      "price": 25,
+      "description": "外脆內嫩，帶有淡淡甜味，串烤中的清新美味。",
+      "isLook": true,
+      "id": 25
+    },
+    {
+      "productName": "香菇",
+      "category": 6,
+      "image": "26.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "帶有香菇獨特的濃郁風味，串烤中的美味享受。",
+      "isLook": true,
+      "id": 26
+    },
+    {
+      "productName": "明太子山藥",
+      "category": 6,
+      "image": "27.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "山藥香氣搭配明太子風味，串烤中的獨特美味。",
+      "isLook": true,
+      "id": 27
+    },
+    {
+      "productName": "香腸",
+      "category": 7,
+      "image": "28.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "淡淡的煙熏味，有嚼勁，散發出濃鬱的肉香",
+      "isLook": true,
+      "id": 28
+    },
+    {
+      "productName": "燒烤麻糬",
+      "category": 7,
+      "image": "29.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "散發濃厚糯米香，米香十足！",
+      "isLook": true,
+      "id": 29
+    },
+    {
+      "productName": "龍蝦沙拉",
+      "category": 7,
+      "image": "30.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "口感Q彈的丸子，搭配龍蝦沙拉，清爽美味。",
+      "isLook": false,
+      "id": 30
+    },
+    {
+      "productName": "香酥雞皮",
+      "category": 5,
+      "image": "31.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "外層金黃酥脆，咬下即化，宛如餅乾般的香濃口感。",
+      "isLook": true,
+      "id": 31
+    },
+    {
+      "productName": "七里香",
+      "category": 5,
+      "image": "32.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "台灣經典小吃，香氣四溢，口感酥脆，讓人愛不釋手的美味。",
+      "isLook": false,
+      "id": 32
+    },
+    {
+      "productName": "帝王蟹味棒",
+      "category": 7,
+      "image": "33.jpg",
+      "count": 10,
+      "price": 49,
+      "description": "濃郁帝王蟹風味，肉質鮮嫩，外皮酥脆，如同享受皇室美味一般。",
+      "isLook": false,
+      "id": 33
+    },
+    {
+      "productName": "花椰菜",
+      "category": 6,
+      "image": "34.jpg",
+      "count": 10,
+      "price": 35,
+      "description": "有淡淡甜味，串烤中的清新口感。",
+      "isLook": false,
+      "id": 34
+    },
+    {
+      "productName": "青椒",
+      "category": 6,
+      "image": "35.jpg",
+      "count": 10,
+      "price": 30,
+      "description": "口感脆嫩、清新。",
+      "isLook": false,
+      "id": 35
+    },
+    {
+      "productName": "紅龜粿",
+      "category": 7,
+      "image": "36.jpg",
+      "count": 10,
+      "price": 40,
+      "description": "外皮紅潤糯滑，經烤製後更添焦香脆感，風味獨特，口感豐富。",
+      "isLook": false,
+      "id": 36
+    },
+    {
+      "productName": "生食級干貝",
+      "category": 4,
+      "image": "37.jpg",
+      "count": 10,
+      "price": 99,
+      "description": "簡單調味，享受干貝原味。",
+      "isLook": false,
+      "id": 37
+    },
+    {
+      "productName": "玉米",
+      "category": 6,
+      "image": "38.jpg",
+      "count": 10,
+      "price": 40,
+      "description": "粒粒飽滿，帶有烤香，串烤中的自然甜美。",
+      "isLook": false,
+      "id": 38
+    },
+    {
+      "productName": "牛五花蔥捲",
+      "category": 2,
+      "image": "39.jpg",
+      "count": 10,
+      "price": 45,
+      "description": "牛五花與蔥巧妙交融，肉嫩蔥香，串烤的極致享受。",
+      "isLook": false,
+      "id": 39
+    }
+  ],
+  "orders": [
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 5,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "quantity": 3,
+          "image": "02.jpg",
+          "price": 61
+        },
+        {
+          "productName": "鯛魚下巴",
+          "quantity": 3,
+          "image": "03.jpg",
+          "price": 45
+        },
+        {
+          "productName": "雞肉串",
+          "quantity": 2,
+          "image": "20.jpg",
+          "price": 89
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242000",
+      "score": "3",
+      "id": 1
+    },
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 5,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "quantity": 3,
+          "image": "02.jpg",
+          "price": 61
+        },
+        {
+          "productName": "鯛魚下巴",
+          "quantity": 3,
+          "image": "03.jpg",
+          "price": 45
+        },
+        {
+          "productName": "雞肉串",
+          "quantity": 2,
+          "image": "20.jpg",
+          "price": 89
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242001",
+      "score": "3",
+      "id": 2
+    },
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 5,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "雞肉串",
+          "quantity": 2,
+          "image": "20.jpg",
+          "price": 89
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242002",
+      "score": "3",
+      "id": 3
+    },
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 10,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "quantity": 10,
+          "image": "02.jpg",
+          "price": 61
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242003",
+      "score": "3",
+      "id": 4
+    },
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 5,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "quantity": 3,
+          "image": "02.jpg",
+          "price": 61
+        },
+        {
+          "productName": "雞肉串",
+          "quantity": 2,
+          "image": "20.jpg",
+          "price": 89
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242004",
+      "score": "3",
+      "id": 5
+    },
+    {
+      "isMember": true,
+      "name": "eric",
+      "phone": "094563131",
+      "day": "2024/01/01",
+      "product": [
+        {
+          "productName": "玉米筍",
+          "quantity": 5,
+          "image": "01.jpg",
+          "price": 52
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "quantity": 3,
+          "image": "02.jpg",
+          "price": 61
+        },
+        {
+          "productName": "鯛魚下巴",
+          "quantity": 3,
+          "image": "03.jpg",
+          "price": 45
+        }
+      ],
+      "address": "台灣大道100號",
+      "price": 300,
+      "status": 3,
+      "userId": 1,
+      "type": true,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "pickTime": "17:00",
+      "comment": "做好吃一點",
+      "flavor": 1,
+      "spicy": 1,
+      "orderid": "202402242005",
+      "score": "3",
+      "id": 6
+    },
+    {
+      "isMember": "true",
+      "name": "admin",
+      "phone": "0911111111",
+      "day": "2024-02-22",
+      "product": [
+        {
+          "productName": "豬五花蔥捲",
+          "image": "02.jpg",
+          "price": 61,
+          "quantity": 1
+        },
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "address": "公益路666號",
+      "price": 106,
+      "userId": "3",
+      "status": 3,
+      "type": false,
+      "tableware": true,
+      "bags": true,
+      "payment": true,
+      "comment": "",
+      "pickTime": "20:45",
+      "flavor": "1",
+      "spicy": "1",
+      "orderid": "202402222045",
+      "score": "",
+      "id": 7
+    },
+    {
+      "isMember": "true",
+      "name": "admin",
+      "phone": "0911111111",
+      "day": "2024-02-24",
+      "product": [
+        {
+          "productName": "番茄牛肉捲",
+          "image": "09.jpg",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "price": 45,
+      "userId": "3",
+      "status": 3,
+      "type": "true",
+      "tableware": "true",
+      "bags": "true",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "14:38",
+      "flavor": "1",
+      "spicy": "1",
+      "orderid": "202402241438",
+      "score": "",
+      "id": 8
+    },
+    {
+      "isMember": "true",
+      "name": "admin",
+      "phone": "0911111111",
+      "day": "2024-02-24",
+      "product": [
+        {
+          "productName": "番茄牛肉捲",
+          "image": "09.jpg",
+          "price": 45,
+          "quantity": 1
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "image": "02.jpg",
+          "price": 58,
+          "quantity": 1
+        },
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "price": 148,
+      "userId": "3",
+      "status": 3,
+      "type": "true",
+      "tableware": "true",
+      "bags": "true",
+      "payment": "false",
+      "comment": "123",
+      "pickTime": "14:55",
+      "flavor": "2",
+      "spicy": "2",
+      "orderid": "202402241455",
+      "score": "",
+      "id": 9
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "mail": "joker@gmail.com",
+      "day": "2024-02-27",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 1
+        },
+        {
+          "productName": "番茄牛肉捲",
+          "image": "09.jpg",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "address": "台灣大道1000號",
+      "price": 70,
+      "userId": "1",
+      "status": 3,
+      "type": "true",
+      "tableware": "true",
+      "bags": "true",
+      "payment": "true",
+      "comment": "3Q",
+      "pickTime": "00:09",
+      "flavor": "1",
+      "spicy": "2",
+      "orderid": "202402270009",
+      "score": "",
+      "id": 10
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "day": "2024-02-28",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "productName": "番茄牛肉捲",
+          "image": "09.jpg",
+          "price": 45,
+          "quantity": 1
+        }
+      ],
+      "address": "自取",
+      "price": 135,
+      "userId": "1",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "789456123",
+      "pickTime": "20:24",
+      "flavor": "2",
+      "spicy": "1",
+      "orderid": "202402282024",
+      "score": "",
+      "id": 11
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "day": "2024-02-28",
+      "product": [
+        {
+          "productName": "鯛魚下巴",
+          "image": "03.jpg",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "productName": "生食級干貝",
+          "image": "37.jpg",
+          "price": 99,
+          "quantity": 1
+        },
+        {
+          "productName": "香酥雞皮",
+          "image": "31.jpg",
+          "price": 35,
+          "quantity": 1
+        }
+      ],
+      "address": "自取",
+      "price": 224,
+      "userId": "1",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "20:26",
+      "flavor": "2",
+      "spicy": "4",
+      "orderid": "202402282026",
+      "score": "",
+      "id": 12
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "day": "2024-02-28",
+      "product": [
+        {
+          "productName": "豬五花",
+          "image": "05.jpg",
+          "price": 45,
+          "quantity": 3
+        },
+        {
+          "productName": "鴨肉串",
+          "image": "10.jpg",
+          "price": 39,
+          "quantity": 3
+        },
+        {
+          "productName": "生食級干貝",
+          "image": "37.jpg",
+          "price": 99,
+          "quantity": 2
+        },
+        {
+          "productName": "豬五花蔥捲",
+          "image": "02.jpg",
+          "price": 58,
+          "quantity": 4
+        }
+      ],
+      "address": "自取",
+      "price": 652,
+      "userId": "1",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "test0228",
+      "pickTime": "22:38",
+      "flavor": "1",
+      "spicy": "1",
+      "orderid": "202402282238",
+      "score": "",
+      "id": 13
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "day": "2024-02-28",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 2
+        },
+        {
+          "productName": "牛五花蔥捲",
+          "image": "39.jpg",
+          "price": 45,
+          "quantity": 2
+        }
+      ],
+      "address": "市政北七路1段100號",
+      "price": 140,
+      "userId": "1",
+      "status": 3,
+      "type": "true",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "666",
+      "pickTime": "22:41",
+      "flavor": "2",
+      "spicy": "2",
+      "orderid": "202402282241",
+      "score": "",
+      "id": 14
+    },
+    {
+      "isMember": "true",
+      "name": "joker",
+      "phone": "0933333333",
+      "day": "2024-02-28",
+      "product": [
+        {
+          "productName": "花椰菜",
+          "image": "34.jpg",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "productName": "青椒",
+          "image": "35.jpg",
+          "price": 30,
+          "quantity": 1
+        }
+      ],
+      "address": "自取",
+      "price": 35,
+      "userId": "1",
+      "status": 1,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "22:53",
+      "flavor": "2",
+      "spicy": "3",
+      "orderid": "202402282253",
+      "score": "",
+      "id": 15
+    },
+    {
+      "isMember": "true",
+      "name": "Ching",
+      "phone": "0912345678",
+      "mail": "suger5769@gmail.com",
+      "day": "2024-03-03",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 11
+        },
+        {
+          "productName": "生食級干貝",
+          "image": "37.jpg",
+          "price": 99,
+          "quantity": 5
+        }
+      ],
+      "address": "自取",
+      "price": 990,
+      "userId": "6",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "01:56",
+      "flavor": "1",
+      "spicy": "2",
+      "orderid": "202403030156",
+      "score": "",
+      "id": 16
+    },
+    {
+      "isMember": "true",
+      "name": "Ching",
+      "phone": "0912345678",
+      "mail": "suger5769@gmail.com",
+      "day": "2024-03-03",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 5
+        },
+        {
+          "productName": "豬五花",
+          "image": "05.jpg",
+          "price": 45,
+          "quantity": 10
+        },
+        {
+          "productName": "鴨肉串",
+          "image": "10.jpg",
+          "price": 39,
+          "quantity": 5
+        }
+      ],
+      "address": "自取",
+      "price": 870,
+      "userId": "6",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "02:00",
+      "flavor": "2",
+      "spicy": "3",
+      "orderid": "202403030200",
+      "score": "",
+      "id": 17
+    },
+    {
+      "isMember": "true",
+      "name": "Ching",
+      "phone": "0912345678",
+      "mail": "suger5769@gmail.com",
+      "day": "2024-03-03",
+      "product": [
+        {
+          "productName": "帝王蟹味棒",
+          "image": "33.jpg",
+          "price": 49,
+          "quantity": 1
+        },
+        {
+          "productName": "龍蝦沙拉",
+          "image": "30.jpg",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "productName": "花椰菜",
+          "image": "34.jpg",
+          "price": 35,
+          "quantity": 3
+        },
+        {
+          "productName": "黃金雞翅",
+          "image": "19.jpg",
+          "price": 35,
+          "quantity": 1
+        }
+      ],
+      "address": "自取",
+      "price": 224,
+      "userId": "6",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "02:04",
+      "flavor": "1",
+      "spicy": "3",
+      "orderid": "202403030204",
+      "score": "",
+      "id": 18
+    },
+    {
+      "isMember": "true",
+      "name": "Ching",
+      "phone": "0912345678",
+      "mail": "suger5769@gmail.com",
+      "day": "2024-03-03",
+      "product": [
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 5
+        }
+      ],
+      "address": "自取",
+      "price": 225,
+      "userId": "6",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "02:06",
+      "flavor": "1",
+      "spicy": "4",
+      "orderid": "202403030206",
+      "score": "",
+      "id": 19
+    },
+    {
+      "isMember": true,
+      "name": "Ching",
+      "phone": "0912345678",
+      "mail": "suger5769@gmail.com",
+      "day": "2024-03-11",
+      "product": [
+        {
+          "productName": "豬五花蔥捲",
+          "image": "02.jpg",
+          "price": 58,
+          "quantity": 4
+        },
+        {
+          "productName": "剝皮辣椒豬捲",
+          "image": "08.jpg",
+          "price": 45,
+          "quantity": 3
+        }
+      ],
+      "address": "自取",
+      "price": 367,
+      "userId": "6",
+      "status": 3,
+      "type": "false",
+      "tableware": "false",
+      "bags": "false",
+      "payment": "true",
+      "comment": "",
+      "pickTime": "01:16",
+      "flavor": "2",
+      "spicy": "2",
+      "orderid": "202403110116",
+      "score": "",
+      "id": 20
+    }
+  ],
+  "news": [
+    {
+      "newsImage": "33",
+      "name": "帝王蟹味棒優惠券",
+      "newsTitle": "新戶好禮",
+      "newsContent": "木木苑串燒店，現在註冊成為我們的新會員，即可領取帝王蟹味棒兌換券一張！\n立即成為新會員，領取您的專屬優惠券，品味串燒店獨家美味。\n快來加入我們，一起享受美味的串燒時光吧！",
+      "isLook": false,
+      "couponId": 8,
+      "id": 1
+    },
+    {
+      "newsImage": "35",
+      "name": "青椒優惠券",
+      "newsTitle": "「蔬菜季」好康來襲！",
+      "newsContent": " 木木苑推出會員限定優惠！\n 即日起，透過會員領取優惠券，「青椒兌換券」！\n 新鮮、多汁的青椒串燒，為您的味蕾帶來驚喜，同時關心您的健康。\n 快來加入會員領取領取優惠！讓我們一起享受美味的同時兼顧健康！",
+      "isLook": false,
+      "couponId": 1,
+      "id": 2
+    },
+    {
+      "newsImage": "34",
+      "name": "花椰菜優惠券",
+      "newsTitle": "「蔬菜季」好康來襲！",
+      "newsContent": " 木木苑推出會員限定優惠！\n 即日起，透過會員領取優惠券，「花椰菜兌換券」！\n 新鮮、多汁的青椒串燒，為您的味蕾帶來驚喜，同時關心您的健康。\n 快來加入會員領取領取優惠！讓我們一起享受美味的同時兼顧健康！",
+      "isLook": false,
+      "couponId": 5,
+      "id": 3
+    },
+    {
+      "newsImage": "09",
+      "name": "番茄牛肉捲優惠券",
+      "newsTitle": "番茄牛肉捲全新登場！",
+      "newsContent": "親愛的串燒店顧客，我們為您帶來一道令人垂涎的全新美味！\n嚴選新鮮番茄，搭配嫩滑牛肉，巧妙捲成精緻捲物。\n口感鮮甜，多汁肉香，絕對是您串燒饗宴中的不可錯過之選！\n品味美味的同時，感受番茄的營養與滋味，為您的味蕾帶來全新的享受。\n快來串燒店品嚐，讓「番茄牛肉捲」成為您串燒時的最愛！",
+      "isLook": false,
+      "couponId": 3,
+      "id": 4
+    },
+    {
+      "newsImage": "18",
+      "name": "雞肉串優惠券",
+      "newsTitle": "雞肉串買一送一！！！",
+      "newsContent": "感謝您對木木苑的支持，木木苑推出超值好康。\n即刻至木木苑，購買雞肉串，使用此優惠券，即可免費獲得另一串！\n新鮮嫩滑的雞肉，搭配獨特的調味，絕對是您享受串燒美味的絕佳選擇。\n別錯過這個難得的機會，帶著您的好友、家人，一同品味這份美味的快樂！",
+      "isLook": false,
+      "couponId": 4,
+      "id": 5
+    }
+  ],
+  "bookingfrom": [
+    {
+      "name": "joker",
+      "personCount": 2,
+      "phone": "0900123123",
+      "mail": "123@123.x",
+      "day": "2024/02/20",
+      "time": "11:00",
+      "isCheck": false,
+      "id": 1
+    },
+    {
+      "name": "joker",
+      "personCount": 2,
+      "phone": "0900123123",
+      "mail": "123@123.x",
+      "day": "2024/02/26",
+      "time": "11:00",
+      "isCheck": false,
+      "id": 2
+    },
+    {
+      "name": "qdwfa",
+      "personCount": 8,
+      "phone": "0933333334",
+      "mail": "cjolxvhsi@shaosr.com",
+      "day": "2024/02/13",
+      "time": "18:00",
+      "isCheck": false,
+      "id": 3
+    },
+    {
+      "name": "joker",
+      "personCount": 10,
+      "phone": "0900123123",
+      "mail": "123@123.x",
+      "day": "2024/02/17",
+      "time": "11:00",
+      "isCheck": false,
+      "id": 4
+    },
+    {
+      "name": "joker",
+      "personCount": 5,
+      "phone": "0900123123",
+      "mail": "123@123.x",
+      "day": "2024/03/17",
+      "time": "11:00",
+      "isCheck": false,
+      "id": 5
+    }
+  ],
+  "periods": [
+    "11:00",
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00",
+    "00:00",
+    "01:00",
+    "02:00",
+    "03:00"
+  ],
+  "coupons": [
+    {
+      "name": "青椒",
+      "calc": "-1",
+      "image": "35",
+      "point": "0",
+      "isLook": false,
+      "description": "僅限現場點餐使用",
+      "id": 1
+    },
+    {
+      "name": "折20塊",
+      "calc": "-20",
+      "image": "money",
+      "point": 50,
+      "isLook": true,
+      "description": "僅限線上訂餐使用",
+      "id": 2
+    },
+    {
+      "name": "番茄牛肉捲優惠券",
+      "calc": "-1",
+      "image": "28",
+      "point": "0",
+      "isLook": false,
+      "description": "僅限現場點餐使用",
+      "id": 3
+    },
+    {
+      "name": "雞肉串",
+      "calc": "-1",
+      "image": "38",
+      "point": "0",
+      "isLook": false,
+      "description": "僅限現場點餐使用",
+      "id": 4
+    },
+    {
+      "name": "花椰菜",
+      "calc": "-1",
+      "image": "14",
+      "point": "0",
+      "isLook": false,
+      "description": "僅限現場點餐使用",
+      "id": 5
+    },
+    {
+      "name": "折30塊",
+      "calc": "-30",
+      "image": "money",
+      "point": 100,
+      "isLook": true,
+      "description": "僅限線上訂餐使用",
+      "id": 6
+    },
+    {
+      "name": "折40塊",
+      "calc": "-40",
+      "image": "money",
+      "point": 150,
+      "isLook": true,
+      "description": "僅限線上訂餐使用",
+      "id": 7
+    },
+    {
+      "name": "帝王蟹味棒",
+      "calc": "-1",
+      "image": "33",
+      "point": 150,
+      "isLook": false,
+      "description": "僅限現場點餐使用",
+      "id": 8
+    }
+  ],
+  "shop": {
+    "shopStatus": false
+  },
+  "notice": [
+    {
+      "userId": 3,
+      "orderId": 2,
+      "id": 1
+    },
+    {
+      "userId": "6",
+      "orderId": 16,
+      "id": 2
+    },
+    {
+      "userId": "6",
+      "orderId": 17,
+      "id": 3
+    },
+    {
+      "userId": "6",
+      "orderId": 18,
+      "id": 4
+    },
+    {
+      "userId": "6",
+      "orderId": 19,
+      "id": 5
+    },
+    {
+      "userId": "3",
+      "orderId": 7,
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "orderId": 8,
+      "id": 7
+    },
+    {
+      "userId": "3",
+      "orderId": 9,
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "orderId": 10,
+      "id": 9
+    },
+    {
+      "userId": "1",
+      "orderId": 11,
+      "id": 10
+    },
+    {
+      "userId": "1",
+      "orderId": 12,
+      "id": 11
+    },
+    {
+      "userId": "1",
+      "orderId": 13,
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "orderId": 14,
+      "id": 13
+    },
+    {
+      "userId": "6",
+      "orderId": 20,
+      "id": 14
+    }
+  ],
+  "scores": [
+    {
+      "star": 4,
+      "ScoreText": "外酥內嫩，\n火侯掌握得很好～",
+      "orderId": "1",
+      "id": 1
+    },
+    {
+      "star": 4,
+      "ScoreText": "店內與食材區都很整齊，乾乾淨淨的很舒服！",
+      "orderId": "2",
+      "id": 2
+    },
+    {
+      "star": 5,
+      "ScoreText": "外帶會依照不同味道分開裝，超用心！",
+      "orderId": "3",
+      "id": 3
+    },
+    {
+      "star": 5,
+      "ScoreText": "種類很多，\n比居酒屋還好吃～",
+      "orderId": "4",
+      "id": 4
+    },
+    {
+      "star": 4,
+      "ScoreText": "烤串烤得很精緻，老闆非常親切。",
+      "orderId": "5",
+      "id": 5
+    },
+    {
+      "star": 5,
+      "ScoreText": "空間明亮有氣氛，\n適合小聚～",
+      "orderId": "6",
+      "id": 6
+    },
+    {
+      "star": 4,
+      "ScoreText": "燒烤不會太鹹又很香！烤功一流！大腸有處理得很好！整體非常喜歡。",
+      "orderId": "7",
+      "id": 7
+    },
+    {
+      "star": 4,
+      "ScoreText": "肉串都還不錯吃，外酥裡嫩，調味得宜。",
+      "orderId": "8",
+      "id": 8
+    },
+    {
+      "star": 5,
+      "ScoreText": "非常非常非常好吃👍 …",
+      "orderId": "9",
+      "id": 9
+    },
+    {
+      "star": 5,
+      "ScoreText": "豬五花、剝皮辣椒豬、牛肉干貝捲，真的好好吃",
+      "orderId": "10",
+      "id": 10
+    },
+    {
+      "star": 5,
+      "ScoreText": "餐點衛生都很優，店內位置不多，但是真心推薦內用～",
+      "orderId": "11",
+      "id": 11
+    },
+    {
+      "star": 3,
+      "ScoreText": "推推，好吃，價格小貴但還可以接受",
+      "orderId": "12",
+      "id": 12
+    },
+    {
+      "star": 4,
+      "ScoreText": "燒烤稍微偏甜，食材跟價位cp值高，師傅的烤工一流。",
+      "orderId": "13",
+      "id": 13
+    },
+    {
+      "star": 4,
+      "ScoreText": "口味適中，食材本身的鮮味，感受得出來非常用心。",
+      "orderId": "14",
+      "id": 14
+    },
+    {
+      "star": 5,
+      "ScoreText": "外帶會依照不同味道分開裝，超用心！",
+      "orderId": "15",
+      "id": 15
+    },
+    {
+      "star": 4,
+      "ScoreText": "推推推👍食材多種美味～",
+      "orderId": "16",
+      "id": 16
+    },
+    {
+      "star": 4,
+      "ScoreText": "牛五花蔥、茄子、玉米筍、烤雞翅好好吃👍",
+      "orderId": "17",
+      "id": 17
+    },
+    {
+      "star": 5,
+      "ScoreText": "好吃到不行，醬料獨特而且烤的很讚😎重點4他的辣粉超好吃的啦！！",
+      "orderId": "18",
+      "id": 18
+    },
+    {
+      "star": 5,
+      "ScoreText": "好吃到不行，醬料獨特而且烤的很讚😎重點4他的辣粉超好吃的啦！！",
+      "orderId": "19",
+      "id": 19
+    }
+  ]
+}
