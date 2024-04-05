@@ -256,7 +256,7 @@ export default {
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="form-floating mb-1" style="height: 85px;">
-              <input type="text" class="form-control" id="reservePhone" maxlength="10" v-model="list.phone"
+              <input type="tel" class="form-control" id="reservePhone" maxlength="10" v-model="list.phone"
                 @input="checkNumber">
               <label for="reservePhone">聯絡電話</label>
               <div v-if="list.phone != ''">
@@ -269,7 +269,7 @@ export default {
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="form-floating mb-1" style="height: 85px;">
-              <input type="mail" class="form-control" id="reserveMail" v-model="list.mail">
+              <input type="email" class="form-control" id="reserveMail" v-model="list.mail">
               <label for="reserveMail">信箱</label>
               <div v-if="list.mail != ''">
                 <span v-if="regexStatus.mail" class="text-success">✔</span>
